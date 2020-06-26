@@ -21,6 +21,14 @@ PinGo is a &nbsp;
 pkg> add PinGo
 ```
 
+## Usage
+
+The simplest way is to just write
+
+```julia
+generate()
+```
+
 ## License
 
 Apache License 2.0
