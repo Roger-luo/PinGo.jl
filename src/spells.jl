@@ -56,11 +56,11 @@ Randomly pick a phrase from the pool.
 """
 pick_from_pool() = rand(BINGO_POOL)
 
-function cast(p1=0.3, p2=0.4)
+function cast(p=0.8)
     dice = rand()
-    if dice < p1
+    if dice < p
         return pick_from_pool()
-    else dice < p1 + p2
+    else
         rand(ACTIONS)(rand(NAMES))
     end
 end
