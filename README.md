@@ -18,7 +18,7 @@ PinGo is a &nbsp;
 </p>
 
 ```jl
-pkg> add PinGo
+pkg> add https://github.com/Roger-luo/PinGo.jl.git
 ```
 
 ## Usage
