@@ -28,7 +28,7 @@ macro action(ex)
     quote
         export $(esc(def[:name]))
         $(esc(ex))
-        push!($(GlobalRef(Pingo, :ACTIONS)), $(esc(def[:name])))
+        push!($(GlobalRef(PinGo, :ACTIONS)), $(esc(def[:name])))
         $(esc(def[:name]))
     end
 end
