@@ -1,6 +1,2 @@
-using Pingo
+using PinGo
 using Test
-
-@testset "Pingo.jl" begin
-    # Write your tests here.
-end

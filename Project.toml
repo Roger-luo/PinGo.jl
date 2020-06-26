@@ -1,7 +1,11 @@
-name = "Pingo"
+name = "PinGo"
 uuid = "d2523161-7cd7-47f7-b2f0-6dcb8544a994"
 authors = ["Roger-luo <rogerluo.rl18@gmail.com> and contributors"]
 version = "0.1.0"
+
+[deps]
+ExprTools = "e2ba6199-217a-4e67-a87a-7c52f15ade04"
+Luxor = "ae8d54c2-7ccd-5906-9d76-62fc9837b5bc"
 
 [compat]
 julia = "1"
